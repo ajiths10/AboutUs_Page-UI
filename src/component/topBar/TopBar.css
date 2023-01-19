@@ -1,0 +1,23 @@
+.topBarConatiner {
+  background-color: #940d1b;
+  display: flex;
+  height: 50px;
+  align-items: center;
+  color: white;
+  justify-content: space-around;
+  font-weight: 200;
+}
+
+.helplineTopBarBtn {
+  flex-grow: 20;
+  display: flex;
+  margin-left: 100px;
+}
+
+.registerTopBarBtn {
+  flex-grow: 1;
+}
+
+.loginTopBarBtn {
+  flex-grow: 4;
+}

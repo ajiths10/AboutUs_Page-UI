@@ -1,0 +1,30 @@
+.headerConatiner {
+  display: flex;
+  flex-flow: row;
+  justify-content: space-around;
+  height: 60px;
+  align-items: center;
+  font-weight: 600;
+}
+
+.HeaderItemContainer {
+  display: inherit;
+  justify-content: space-between;
+  width: 500px;
+}
+
+.HeaderIconContainer {
+  display: inherit;
+  justify-content: space-evenly;
+  gap: 20px;
+}
+
+.logoHeaderBtn {
+  font-size: 32px;
+  color: #940d1b;
+  font-weight: 650;
+}
+
+.HeaderIconContainer {
+  color: #a4a4a4;
+}

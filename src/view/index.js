@@ -1,7 +1,11 @@
+import Header from "../component/header";
+import TopBar from "../component/topBar/TopBar";
+
 const MarsDev = () => {
   return (
     <>
-      <h2>hello </h2>
+      <TopBar />
+      <Header />
     </>
   );
 };
