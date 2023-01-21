@@ -182,3 +182,59 @@
 .fiveConatiner img {
   width: 100%;
 }
+
+.sideController {
+  display: flex;
+  margin-left: 140px;
+  margin-top: 30px;
+  color: gray;
+  gap: 10px;
+  font-size: 14px;
+  align-items: center;
+}
+
+.material-icons {
+  font-family: "Material Icons";
+  font-weight: normal;
+  font-style: normal;
+  font-size: 18px;
+  line-height: 1;
+  letter-spacing: normal;
+  text-transform: none;
+  display: inline-block;
+  white-space: nowrap;
+  word-wrap: normal;
+  direction: ltr;
+  -webkit-font-feature-settings: "liga";
+  -webkit-font-smoothing: antialiased;
+  /* height: 10px; */
+}
+
+.spanlabel {
+  color: #940d1b;
+  font-weight: 500;
+}
+
+.honeDotOne {
+  height: 28px;
+  width: 28px;
+  background-color: #940d1b;
+  border-radius: 50%;
+  display: inline-block;
+  position: absolute;
+  top: 170px;
+  right: 480px;
+  opacity: 56%;
+}
+
+.honeDotTwo {
+  height: 28px;
+  width: 28px;
+  background-color: #ffdce7;
+  border-radius: 50%;
+  display: inline-block;
+  position: absolute;
+  top: 230px;
+  left: 480px;
+  opacity: 56%;
+}

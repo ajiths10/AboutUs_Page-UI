@@ -1,3 +1,4 @@
+import Footer from "../component/footer";
 import Header from "../component/header";
 import TopBar from "../component/topBar/TopBar";
 import "./Home.css";
@@ -39,6 +40,13 @@ const Home = () => {
     <>
       <TopBar />
       <Header />
+      <span class="honeDotOne"></span>
+      <span class="honeDotTwo"></span>
+      <div className="sideController">
+        <span class="material-icons">home</span>
+        <span> {">"} </span>
+        <span className="spanlabel"> About Us </span>
+      </div>
       <div className="mainConatiner">
         <div className="flexWraper">
           <div className="oneConatiner">
@@ -126,6 +134,7 @@ const Home = () => {
           </div>
         </div>
       </div>
+      <Footer />
     </>
   );
 };
