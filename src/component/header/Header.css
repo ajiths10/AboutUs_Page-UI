@@ -28,3 +28,17 @@
 .HeaderIconContainer {
   color: #a4a4a4;
 }
+
+.arrow-down {
+  width: 0;
+  height: 0;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-top: 5px solid #000;
+}
+.menHeaderBtn {
+  display: flex;
+  flex-flow: row;
+  align-items: center;
+  gap: 5px;
+}
