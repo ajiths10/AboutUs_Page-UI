@@ -1,6 +1,6 @@
-import Footer from "../../component/footer";
-import Header from "../../component/header";
-import TopBar from "../../component/topBar/TopBar";
+import Footer from "../../component/V1/footer";
+import Header from "../../component/V1/header";
+import TopBar from "../../component/V1/topBar/TopBar";
 import "./Home.css";
 
 const Home = () => {

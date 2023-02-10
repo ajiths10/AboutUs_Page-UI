@@ -8,7 +8,7 @@ const Footer = () => {
           <div>
             <img
               alt="delivery"
-              src={require("../../assets/fast-delivery.png")}
+              src={require("../../../assets/fast-delivery.png")}
             />
           </div>
           <div>Fast delivery in 3-5 Days</div>
@@ -66,7 +66,7 @@ const Footer = () => {
                   <span class="dotinnner">
                     <img
                       alt={`logo${index}`}
-                      src={require(`../../assets/${buscat}.png`)}
+                      src={require(`../../../assets/${buscat}.png`)}
                     />
                   </span>
                 </span>
