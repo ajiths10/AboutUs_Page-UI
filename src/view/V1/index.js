@@ -1,6 +1,6 @@
-import Footer from "../component/footer";
-import Header from "../component/header";
-import TopBar from "../component/topBar/TopBar";
+import Footer from "../../component/footer";
+import Header from "../../component/header";
+import TopBar from "../../component/topBar/TopBar";
 import "./Home.css";
 
 const Home = () => {
@@ -61,11 +61,11 @@ const Home = () => {
               culture for our employees, a climate which gives them
               opportunities for self growth and skill development.
             </p>
-            <img alt="student" src={require("../assets/student.png")} />
+            <img alt="student" src={require("../../assets/student.png")} />
           </div>
           <div className="twoConatiner">
             <div>
-              <img alt="group" src={require("../assets/group.png")} />
+              <img alt="group" src={require("../../assets/group.png")} />
             </div>
             <div className="dataListConatainer">
               <h2>
@@ -77,7 +77,7 @@ const Home = () => {
                     <span>
                       <img
                         alt="verify"
-                        src={require("../assets/stick_simpal.png")}
+                        src={require("../../assets/stick_simpal.png")}
                       />
                       &nbsp;
                       {buscat}
@@ -130,7 +130,10 @@ const Home = () => {
             })}
           </div>
           <div className="fiveConatiner">
-            <img alt="student" src={require("../assets/video_playback.png")} />
+            <img
+              alt="student"
+              src={require("../../assets/video_playback.png")}
+            />
           </div>
         </div>
       </div>

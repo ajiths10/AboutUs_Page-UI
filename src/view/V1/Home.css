@@ -88,7 +88,7 @@
 }
 
 .block_one {
-  background-image: url("../assets/block_one.png");
+  background-image: url("../../assets/block_one.png");
   height: 300px;
   background-repeat: no-repeat;
   display: flex;
@@ -97,14 +97,14 @@
   flex-flow: column;
 }
 .block_two {
-  background-image: url("../assets/block_three.png");
+  background-image: url("../../assets/block_three.png");
   height: 150px;
   width: 550px;
   margin: 15px;
   margin-top: 30px;
 }
 .block_three {
-  background-image: url("../assets/block_two.png");
+  background-image: url("../../assets/block_two.png");
   background-repeat: no-repeat;
   height: 480px;
 }
