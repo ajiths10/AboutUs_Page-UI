@@ -3,6 +3,7 @@ import CopyrightFooter from "./components/CopyrightFooter";
 import FooterContentBody from "./components/FooterContentBody";
 import FooterDeliveryBox from "./components/FooterDeliveryBox";
 import FooterForm from "./components/FooterForm";
+import SocialConnection from "./components/SocialConnection";
 
 const Footer = () => {
   return (
@@ -23,12 +24,20 @@ const Footer = () => {
           data={["About Us", "contact Us", "Pricing Plan", "Knowledge Base"]}
         />
 
-        <div>
+        <div className="">
           <h2>COMPANY</h2>
           <p className=" text-xs">
             Sign up & get all our latest updates and special offers
           </p>
           <FooterForm />
+          <SocialConnection
+            icons={[
+              "Icon-youtube",
+              "Icon-linkedin",
+              "Icon-twitter",
+              "Icon-facebook",
+            ]}
+          />
         </div>
       </div>
 
